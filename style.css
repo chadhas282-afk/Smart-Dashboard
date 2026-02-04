@@ -10,3 +10,14 @@
             color: white;
             font-size: 50px;
         }
+        h2{
+            color: rgb(2, 74, 168);
+        }
+        .event-form {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: inline-block;
+        }
