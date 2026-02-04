@@ -8,30 +8,39 @@
 </head>
 <body>
     <h1>🎯Smart Event Dashboard</h1>
+    <div class="parent">
+
+ 
     <div class="event-form">
         <h2>Add new event</h2>
-        <label for="eventInput">Event Name:</label><br>
+        <label for="eventInput">Event Name:</label>
         <input type="text" id="eventInput" placeholder="Event name">
-        <br><br>
-        <label for="eventDate">Event Date:</label><br>
-        <input type="text" id="eventDate" placeholder="Event date">
-        <br><br>
+        <label for="eventDate">Event Date:</label>
+        <input type="date" id="eventDate" placeholder="Event date">
+        <label for="eventCategory">Event Category:</label>
         <select name="eventCategory" id="eventCategory">
             <option value="conference">Conference</option>
             <option value="social">Social</option>
             <option value="bootcamp">Bootcamp</option>
             <option value="other">Other</option>
         </select>
-        <label for="description">Description:</label><br>
+        <label for="description">Description:</label>
         <textarea id="description" placeholder="Event description"></textarea>
-         <br><br>
-        <br>
         <button id="addEventButton">Add Event</button>
     </div>
     <div class="My-events">
         <h2>My Events</h2>
         <ul id="eventList"></ul>
-        
+        <div class="gridcard">
+            <div class="grid">
+                <h4>Event Name</h4>
+                <p>Sample Event</p>
+                <p>Event Date: 2023-10-10</p>
+                <p>Category: Conference</p>
+                <p>Description: This is a sample event description.</p>
+            </div>
+        </div>
     </div>
+       </div>
 </body>
 </html>
