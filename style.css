@@ -4,6 +4,14 @@
             margin: 0;
             padding: 0;
         }
+        .parent{
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 20px;
+            margin-top: 30px;
+            margin-bottom: 50px;
+        }
         h1 {
             text-align: center;
             margin-top: 50px;
@@ -21,8 +29,11 @@
             border-radius: 20px;
             margin-bottom: 20px;
             display: inline-block;
-            width: 50em;
-            
+            width: 30em;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
         }
         .event-form input[type="text"] {
             padding: 10px;
@@ -37,17 +48,18 @@
             border-radius: 4px;
             color: white;
             cursor: pointer;
-            width: 50rem;
+            width: 30rem;
         }
         .event-form button:hover {
             background-color: #4cae4c;
         }
         .My-events {
              background: white;
-             height: 80em;
+             height: 30em;
              width: 50em;
             padding: 20px;
             border-radius: 5px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             margin-bottom: 20px;
+            border-radius: 20px;
         }
