@@ -68,7 +68,7 @@
      display: flex;
      flex-direction: column;
      background: white;
-     height: 30em;
+     height: fit-content;
      width: 50em;
      padding: 20px;
      border-radius: 5px;
@@ -133,4 +133,5 @@
 
  .delete-btn:hover {
      background: #cc0000;
+     transform: scale(1.1);
  }
