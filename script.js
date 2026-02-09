@@ -7,7 +7,7 @@ let container = document.getElementById("gridcard");
 
 eve.addEventListener("click", function() {
     if (inp.value.trim() === "") return;
-
+    
     let card = `<div class="card">
                     <button class="delete-btn">&times;</button>
                     <p class="name">${inp.value}</p>
